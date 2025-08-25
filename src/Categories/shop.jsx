@@ -14,38 +14,38 @@ function Categories() {
           <header className="col text-center fs-5">Shop By Category</header>
           <section className="mt-3 d-flex justify-content-around cat-shop">
             <div className="row">
-              <div className="text-center col">
+              <div className="text-center col-6 col-sm-2">
                 <img src={clothing}  height={130} />
                 <br />
                 <a href="#">Sweaters</a>
               </div>
 
-              <div className="text-center col">
-                <img src={clothing2}  height={130} className="img-query" />
+              <div className="text-center col-6 col-sm-2">
+                <img src={clothing2}  height={130} className="img-query shop-img" />
                 <br />
                 <a href="#">Whites</a>
               </div>
 
-              <div className="text-center col">
-                <img src={clothing3}  height={130}/>
+              <div className="text-center col-6 col-sm-2">
+                <img src={clothing3}  height={130}  className="shop-img"/>
                 <br />
                 <a href="#">Corporate clothing</a>
               </div>
 
-              <div className="text-center col ">
-                <img src={clothing4} height={130} />
+              <div className="text-center col-6 col-sm-2">
+                <img src={clothing4} height={130}  className="shop-img" />
                 <br />
                 <a href="#">Suits</a>
               </div>
 
-              <div className="text-center col">
-                <img src={clothing5}  height={130}/>
+              <div className="text-center col-6 col-sm-2">
+                <img src={clothing5}  height={130} className="shop-img"/>
                 <br />
                 <a href="#">Tuxedos</a>
               </div>
 
-              <div className="text-center col">
-                <img src={clothing6}  height={130} />
+              <div className="text-center col-6 col-sm-2">
+                <img src={clothing6}  height={130}  className="shop-img"/>
                 <br />
                 <a href="#">Trousers</a>
               </div>

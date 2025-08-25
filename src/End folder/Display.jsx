@@ -29,7 +29,11 @@ function Display() {
           </div>
           <div className="row mt-4 ">
             <div className="col-12 col-sm-3">
-              <img src={woman1} alt="first image" className="img-fluid fluid-1" />
+              <img
+                src={woman1}
+                alt="first image"
+                className="img-fluid fluid-1"
+              />
             </div>
 
             <div className="col-12 col-sm-3">
@@ -37,20 +41,18 @@ function Display() {
             </div>
 
             <div className="col-12 col-sm-3">
-              <img src={woman3} alt="first image" className="img-fluid fluid-1" />
-            </div>
-
-            <div className="col-12 col-sm-3">
-              <img src={image} alt="first image" className="img-fluid fluid-1" />
+              <img
+                src={woman3}
+                alt="first image"
+                className="img-fluid fluid-1"
+              />
             </div>
 
             <div className="col-12 col-sm-3">
               <img
-                src={woman2}
+                src={image}
                 alt="first image"
-                height={1000}
-                className="img-fluid"
-                style={{ objectFit: "cover" }}
+                className="img-fluid fluid-1"
               />
             </div>
           </div>
@@ -61,7 +63,7 @@ function Display() {
         <div className="container">
           <div className="row">
             <div className="col-6 col-sm-4 text-center display-con">
-              <img src={deployed} />
+              <img src={deployed} height={50} />
               <br />
               <b>Complimentary shipping </b>
               <br />
@@ -69,7 +71,7 @@ function Display() {
             </div>
 
             <div className="col-6 col-sm-4 text-center  display-con">
-              <img src={cycle} />
+              <img src={cycle} height={50} />
               <br />
               <b>Consciously crafted</b>
               <br />
@@ -77,7 +79,7 @@ function Display() {
             </div>
 
             <div className="col-12 col-sm-4 text-center display-con">
-              <img src={location} />
+              <img src={location} height={50} />
               <br />
               <b>Come say Hi</b>
               <br />

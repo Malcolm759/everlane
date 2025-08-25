@@ -57,12 +57,13 @@ li {
 
 .h-icons {
     display: inline-flex;
-    justify-content: end;
+    justify-content:start;
     gap: 10px;
 }
 
 .eve-flex {
     display: inline-flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }
 
@@ -134,18 +135,22 @@ li {
     background-image: url("./assets/Extra-pictures/fashion.jpg");
     background-size: cover;
     font-family: Poppins;
+     border-radius: 10px;
 }
 
 .coll2 {
     background-image: url("./assets/Extra-pictures/shirtsAB.jpg");
     background-size: cover;
     font-family: Poppins;
+    height: 470px;
+    border-radius: 10px;
 }
 
 .coll3 {
     background-image: url("./assets/Extra-pictures/shop333.jpg");
     background-size: cover;
     font-family: Poppins;
+     border-radius: 10px;
 }
 
 .cta {
@@ -167,28 +172,11 @@ li {
 
 
 /* Carousel */
-.carousel-container {
-    width: 80em;
-    margin: auto;
+
+.c-header-t{
+  font-family: Poppins-Light;
+
 }
-
-.card-txt {
-    font-family: Heebo;
-    font-size: 16px;
-}
-
-.carousel-control-prev {
-    height: 40%;
-    align-self: center;
-    border: 1px solid;
-}
-
-.carousel-control-next {
-    height: 40%;
-    align-self: center;
-}
-
-
 .h-div {
     font-family: Poppins-Light;
 }
@@ -226,20 +214,28 @@ li {
     text-decoration: none;
 }
 
+.footer-input{
+    width: 170px;
+}
+
+
 /* Media queries */
 
 @media screen and (max-width:768px) {
     .eve-flex {
-        display: grid;
+       display: block;
+       text-align: center;
     }
 
     .headline {
         font-size: 50px;
+        text-align: center;
     }
 
     .h-icons {
         display: flex;
         justify-content: space-evenly;
+        margin: auto;
     }
 
     .hero-col2 {
@@ -273,12 +269,6 @@ li {
         background-position: center;
     }
 
-    .carousel-container {
-        width: 100%;
-        margin: 0px;
-        font-size: 15px;
-    }
-
     .carousel-item {
         display: flex;
         flex-direction: column ;
@@ -287,11 +277,13 @@ li {
     }
 
     .car-img {
-        height: 100px;
+        height: 120px;
+        object-fit: contain;
+        object-position: left;
     }
 
     .card-con {
-        height: 15rem;
+        height: 13rem;
     }
 
     .card-b {
@@ -322,6 +314,19 @@ li {
     .hero-sec{
         background-attachment: scroll;
         background-size: cover;
+    }
+
+    .shop-img{
+        width: 150px;
+        height: 120px;
+    }
+    
+    .display-img{
+        height: 150px;
+    }
+
+    .footer-query{
+        display: block;
     }
 
 }

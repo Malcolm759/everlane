@@ -10,6 +10,22 @@ function Nav() {
         <div className="row">
           <nav className="border-bottom border navbar">
             <div className="col-12 col-sm-6 eve-flex">
+              <span className="fs-3 headline text-center">Everlane</span>
+
+              <div className=" h-icons col-12 col-sm-4 ">
+                <a href="#">
+                  <img src={image1} alt="" height={20} />
+                </a>
+                <a href="#">
+                  <img src={search} alt="" height={20} />
+                </a>
+                <a href="#">
+                  <img src={cart} alt="" height={20} />
+                </a>
+              </div>
+            </div>
+
+            <div>
               <ul className="d-inline-flex text-dark u-list">
                 <li>
                   <a href="#">Women</a>
@@ -24,20 +40,6 @@ function Nav() {
                   <a href="#">Everworld stories</a>
                 </li>
               </ul>
-              <span className="fs-3 headline text-center">
-                Everlane
-              </span>
-            </div>
-            <div className=" h-icons col-12 col-sm-4 ">
-              <a href="#">
-                <img src={image1} alt="" height={20} />
-              </a>
-              <a href="#">
-                <img src={search} alt=""  height={20} />
-              </a>
-              <a href="#">
-                <img src={cart} alt=""  height={20} />
-              </a>
             </div>
           </nav>
           <nav className="nav2">
