@@ -3,9 +3,9 @@ import "../assets/css/bootstrap.min.css";
 function Extra() {
   return (
     <>
-      <div className="mb-4">
+      <div className="mb-1">
         <section className=" container-fluid img-con mt-4">
-          <div className="row px-4 h-100 d-flex justify-content-center mb-4">
+          <div className="row px-4 h-100 d-flex justify-content-center mb-1">
             <div className="d-flex justify-content-between row w-100 ">
               <div className="coll1 col-sm-4 d-flex align-items-center justify-content-center">
                 <div className="text-center">

@@ -1,6 +1,9 @@
 import "../assets/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 function Cta() {
+
+  const Navigate = useNavigate()
   return (
     <>
      
@@ -16,7 +19,7 @@ function Cta() {
                     Read about the progress in our latest impact report
                   </span>
                   <br />
-                  <button className="btn btn-light mt-4"> learn more</button>
+                  <button className="btn btn-light mt-4" onClick={() => Navigate("/about")}> learn more</button>
                 </div>
               </div>
             </div>

@@ -1,6 +1,9 @@
 import "../assets/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="container-fluid d-flex align-items-center p-3 hero-sec">
@@ -17,7 +20,9 @@ function Hero() {
                     with new winter essentials
                   </span>
                   <br />
-                  <button className="btn btn-light mt-1 w-50 ">Shop Now</button>
+                  <button className="btn btn-light mt-1 w-50"
+                  onClick={() => navigate("/shop-now")}
+                  >Shop Now</button>
                 </div>
               </div>
             </div>

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: Josefin sans;
+    src: url("./public/Josefin_Sans/JosefinSans.ttf");
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("/Heebo/Heebo.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url("/Poppins/Poppins-Light.ttf");
+}
+
+.header-div2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.shopping-div {
+    font-family: Poppins-light;
+}
+
+.shop-now-card {
+    display: grid;
+    grid-template-columns: repeat(3 , 350px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .header-div2 {
+        display: flex;
+        gap: 90px;
+    }
+
+    .shop-now-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

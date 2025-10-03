@@ -9,21 +9,26 @@ import Ending1 from "./End folder/review.jsx";
 import Gift from "./End folder/Gifts.jsx";
 import Display from "./End folder/Display.jsx";
 import Footer from "./End folder/footer.jsx";
+import About from "./Extra-pages/about.jsx";
+
 
 function App() {
+ 
   return (
     <>
-      <Header />
-      <Nav />
-      <Hero />
-      <Categories />
-      <Extra />
-      <Cta />
-      <Slider />
-      <Ending1 />
-      <Gift />
-      <Display />
-      <Footer />
+      
+        <Header />
+        <Nav />
+        <Hero />
+        <Categories />
+        <Extra />
+        <Cta />
+        <Slider />
+        <Ending1 />
+        <Gift />
+        <Display />
+        <Footer />
+      
     </>
   );
 }

@@ -35,25 +35,14 @@ function Slider() {
         </div>
 
         <Swiper
-          spaceBetween={2}
-          slidesPerView={1.5}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          spaceBetween={1.5}
+          slidesPerView={1.2} // Default for mobile
           modules={[Navigation, Pagination]}
           navigation
           breakpoints={{
-            600: {
-              slidesPerView: 2.5,
-              spaceBetween: 2,
-            },
-            768: {
-              slidesPerView:4.5,
-              spaceBetween: 2,
-            },
-            1024: {
-              slidesPerView: 4.3,
-              spaceBetween: 2,
-            },
+            600: { slidesPerView: 2.5, spaceBetween: 2 },
+            768: { slidesPerView: 4.5, spaceBetween: 1 },
+            1024: { slidesPerView: 5, spaceBetween: 2 },
           }}
         >
           <SwiperSlide>

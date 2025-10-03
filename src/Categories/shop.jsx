@@ -5,17 +5,18 @@ import clothing3 from "../assets/Mens clothes/shirt-3.jpg";
 import clothing4 from "../assets/Mens clothes/shirts-4.jpg";
 import clothing5 from "../assets/Mens clothes/shirts-5.jpg";
 import clothing6 from "../assets/Mens clothes/trousers.jpg";
+import sweater from "../assets/sweater2.jpg";
 
 function Categories() {
   return (
     <>
-      <section className=" container-fluid mt-4 Cat-sec">
+      <section className=" container-fluid Cat-sec">
         <div className="row">
-          <header className="col text-center fs-5">Shop By Category</header>
+          <header className="col text-center fs-3">Shop By Category</header>
           <section className="mt-3 d-flex justify-content-around cat-shop">
             <div className="row">
               <div className="text-center col-6 col-sm-2">
-                <img src={clothing}  height={130} />
+                <img src={sweater}  height={115} className="img-query shop-img"/>
                 <br />
                 <a href="#">Sweaters</a>
               </div>
