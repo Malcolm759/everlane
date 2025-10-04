@@ -44,7 +44,7 @@
 @media screen and (max-width:768px) {
     .header-div2 {
         display: flex;
-        gap: 90px;
+       justify-content: space-around;
     }
 
     .shop-now-card {
