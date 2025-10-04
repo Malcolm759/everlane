@@ -2,8 +2,8 @@ import "../assets/css/bootstrap.min.css";
 import "./about.css";
 import asian from "../assets/about/asian.jpg";
 import suitcase from "../assets/about/suitcase.jpg";
-import hero from "../assets/about/section 01.jpg";
-import sweater from "../assets/about/sweater.jpg";
+import hero from "../assets/about/section-01.jpg";
+import sweat from "../assets/about/sweat.jpg";
 import math from "../assets/about/math.png";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -114,7 +114,7 @@ function About() {
             </div>
           </div>
           <div className="col-12 col-sm-6">
-            <img src={sweater} className="img-fluid" />
+            <img src={sweat} className="img-fluid" />
           </div>
         </div>
 
