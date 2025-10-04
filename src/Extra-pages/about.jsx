@@ -2,7 +2,7 @@ import "../assets/css/bootstrap.min.css";
 import "./about.css";
 import asian from "../assets/about/asian.jpg";
 import suitcase from "../assets/about/suitcase.jpg";
-import hero from "../assets/about/section 01.jpg";
+import hero from "../assets/about/section-01.jpg";
 import sweater from "../assets/about/sweater.jpg";
 import math from "../assets/about/math.png";
 import { Link } from "react-router-dom";
