@@ -13,6 +13,7 @@ import ShopNow from "./Extra-pages/shop-now.jsx"
 
 const router = createBrowserRouter([
   { path: "/everlane", element: <App /> },
+   { path: "/", element: <App /> },
   { path: "/about", element: <About /> },
   { path: "/cart", element: <Cart /> },
   { path: "/everlane/cart", element: <Cart /> },
