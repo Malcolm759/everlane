@@ -3,7 +3,7 @@ import "./about.css";
 import asian from "../assets/about/asian.jpg";
 import suitcase from "../assets/about/suitcase.jpg";
 import hero from "../assets/about/section-01.jpg";
-import sweat from "../assets/about/sweat.jpg";
+import sweat from "../assets/about/sweat-1.jpg";
 import math from "../assets/about/math.png";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
