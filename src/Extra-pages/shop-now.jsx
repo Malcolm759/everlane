@@ -64,7 +64,7 @@ function ShopNow() {
         </h2>
       </div>
 
-      <div className="container-fluid shopping">
+      <div className="container shopping">
         <div className="row">
           <div className="shop-now-card">
             {visualData.length === 0 ? (

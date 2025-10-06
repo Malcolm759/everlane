@@ -10,43 +10,43 @@ import sweater from "../assets/sweater2.jpg";
 function Categories() {
   return (
     <>
-      <section className=" container-fluid Cat-sec">
+      <section className=" container Cat-sec">
         <div className="row">
           <header className="col text-center fs-3">Shop By Category</header>
           <section className="mt-3 d-flex justify-content-around cat-shop">
             <div className="row">
               <div className="text-center col-6 col-sm-2">
-                <img src={sweater}  height={115} className="img-query shop-img"/>
+                <img src={sweater}   className="img-query shop-img img-fluid"/>
                 <br />
                 <a href="#">Sweaters</a>
               </div>
 
               <div className="text-center col-6 col-sm-2">
-                <img src={clothing2}  height={130} className="img-query shop-img" />
+                <img src={clothing2}   className="img-query shop-img img-fluid" />
                 <br />
                 <a href="#">Whites</a>
               </div>
 
               <div className="text-center col-6 col-sm-2">
-                <img src={clothing3}  height={130}  className="shop-img"/>
+                <img src={clothing3}   className="shop-img img-fluid"/>
                 <br />
                 <a href="#">Corporate clothing</a>
               </div>
 
               <div className="text-center col-6 col-sm-2">
-                <img src={clothing4} height={130}  className="shop-img" />
+                <img src={clothing4}  className="shop-img img-fluid" />
                 <br />
                 <a href="#">Suits</a>
               </div>
 
               <div className="text-center col-6 col-sm-2">
-                <img src={clothing5}  height={130} className="shop-img"/>
+                <img src={clothing5}   className="shop-img img-fluid"/>
                 <br />
                 <a href="#">Tuxedos</a>
               </div>
 
-              <div className="text-center col-6 col-sm-2">
-                <img src={clothing6}  height={130}  className="shop-img"/>
+              <div className="text-center col-6 col-sm-2 ">
+                <img src={clothing6}   className="shop-img img-fluid"/>
                 <br />
                 <a href="#">Trousers</a>
               </div>
