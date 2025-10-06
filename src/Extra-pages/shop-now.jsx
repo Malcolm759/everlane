@@ -75,7 +75,7 @@ function ShopNow() {
       </div>
 
       <div className="shopping ">
-        <div className="row">
+        <div className="row w-100">
           <div className="shop-now-card">
             {visualData.length === 0 ? (
               <p>
