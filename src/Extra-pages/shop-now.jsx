@@ -32,6 +32,11 @@ function ShopNow() {
       prev.some((cartItem) => cartItem.id === item.id) ? prev : [...prev, item]
     );
 
+  const [sup, setSup] = useState(0);
+  function handleSup() {
+    setSup((prev) => prev + 1);
+  }
+
   return (
     <>
       <div>
@@ -47,7 +52,7 @@ function ShopNow() {
         </header>
 
         <h2 className="border-bottom">
-          <div className="header-div2">
+          <div className="header-div2 ">
             <b>
               <button
                 onClick={() => navigate("/everlane")}
@@ -59,12 +64,17 @@ function ShopNow() {
             <b className="fs-1">Listings</b>
             <button className="btn btn-link" onClick={() => navigate("/cart")}>
               <img src={cart} style={{ objectFit: "contain" }} />
+              <sup>
+                
+                  <b>{sup}</b>
+               
+              </sup>
             </button>
           </div>
         </h2>
       </div>
 
-      <div className="container shopping">
+      <div className="shopping ">
         <div className="row">
           <div className="shop-now-card">
             {visualData.length === 0 ? (
@@ -80,31 +90,29 @@ function ShopNow() {
                     item.category.includes("women")
                 )
                 .map((item) => (
-                 
-                    <div
-                      className=" card h-100 "
-                      style={{ width: 350 }}
-                      key={item.id}
-                    >
-                      <img
-                        src={item.image}
-                        className="card-img-top"
-                        alt={item.title}
-                        style={{ height: "200px", objectFit: "contain" }}
-                      />
-                      <div className="card-body">
-                        <h5 className="card-title">{item.title}</h5>
-                        <p className="card-text">${item.price}</p>
-                      </div>
-
-                      <button
-                        className="btn btn-dark "
-                        onClick={() => handleSelect(item)}
-                      >
-                        Add to Cart
-                      </button>
+                  <div
+                    className=" card h-100 "
+                    style={{ width: 350 }}
+                    key={item.id}
+                  >
+                    <img
+                      src={item.image}
+                      className="card-img-top"
+                      alt={item.title}
+                      style={{ objectFit: "contain" }}
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">{item.title}</h5>
+                      <p className="card-text">${item.price}</p>
                     </div>
-                  
+
+                    <button
+                      className="btn btn-dark "
+                      onClick={() => { handleSelect(item); handleSup(); }}
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
                 ))
             )}
           </div>
