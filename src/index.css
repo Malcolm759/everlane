@@ -414,6 +414,9 @@ li {
 /* Media queries */
 
 @media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+    }
     .eve-flex {
         display: block;
         text-align: center;
