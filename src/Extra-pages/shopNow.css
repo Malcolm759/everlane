@@ -36,7 +36,7 @@
 
 .shop-now-card {
     display: grid;
-    grid-template-columns: repeat(3 , 350px);
+    grid-template-columns: repeat(2 , 450px);
     gap: 30px;
     justify-content: center;
 }
